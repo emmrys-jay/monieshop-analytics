@@ -24,8 +24,9 @@ sales transactions. It reads through text transaction files and reports the foll
 
 - Run the program using
 ```bash
-    go build . && ./monieshop-analytics --dir "Directory of transaction files"
+    go build . && ./monieshop --dir "Directory of transaction files"
 ```
+Make sure you change "Directory of transaction files" to your own directory
 
 - You will see results similar to the following:
 ```bash
