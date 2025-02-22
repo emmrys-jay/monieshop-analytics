@@ -17,6 +17,11 @@ sales transactions. It reads through text transaction files and reports the foll
     git clone git@github.com:emmrys-jay/monieshop-analytics.git
 ```
 
+- Enter projects directory using:
+```base
+    cd monieshop-analytics
+```
+
 - Run the program using
 ```bash
     go build . && ./monieshop-analytics --dir "Directory of transaction files"
